@@ -1,0 +1,67 @@
+body {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  background-color: #000000;
+  margin: 0;
+  padding: 40px 0;
+}
+
+h1 {
+  line-height: 1.3;
+  letter-spacing: 0.5px;
+  color: #d90429;
+}
+
+.form-container {
+  max-width: 444px;
+  margin: 0 auto;
+  padding: 32px;
+  background-color: #ffffff;
+  border: 2px solid #d90429;
+  border-radius: 12px;
+  box-sizing: border-box;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+button {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 12px;
+  font-size: 1rem;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+  border: 2px solid #000000;
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.radio-option {
+  display: flex;
+  align-items: center;
+}
+
+input:focus,
+select:focus {
+  border-color: #d90429;
+  outline: 2px solid #d90429;
+}
+
+button {
+  background-color: #d90429;
+  color: #ffffff;
+}
+
+button:hover {
+  background-color: #000000;
+  cursor: pointer;
+}
